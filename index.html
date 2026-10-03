@@ -108,6 +108,8 @@
   .profile .bio { font-size: 16px; line-height: 1.55; color: var(--cream); margin: 0 0 12px; }
   .profile .site { font-weight: 600; font-size: 14px; color: var(--accent-2); text-decoration: none; }
   .profile .cta { display: inline-block; margin-top: 22px; }
+  .profile-top { margin: 24px auto 0; }
+  .profile-top + header.hero { padding-top: 48px; }
   .reveal { opacity: 0; transform: translateY(18px); transition: opacity .8s var(--ease), transform .8s var(--ease); }
   .reveal.in { opacity: 1; transform: none; }
   @media (prefers-reduced-motion: reduce) { .reveal { opacity: 1; transform: none; transition: none; } }
@@ -126,6 +128,15 @@
     <a class="logo" href="https://insarchique.com">Insar<span>.</span></a>
     <a class="handle" href="https://instagram.com/insar.builds" target="_blank" rel="noopener">@insar.builds</a>
   </nav>
+
+  <div class="profile profile-top">
+    <img src="avatar.png" alt="Insar" />
+    <h3>insar.builds</h3>
+    <p class="sub">Insar Builds · AI tools &amp; vibe coding</p>
+    <p class="bio">New AI tools, explained in 60 seconds<br/>Claude Code · vibe coding · AI agents</p>
+    <a class="site" href="https://orda-studio.com" target="_blank" rel="noopener">orda-studio.com</a><br/>
+    <a class="cta" href="https://instagram.com/insar.builds" target="_blank" rel="noopener">Follow @insar.builds →</a>
+  </div>
 
   <header class="hero">
     <div class="eyebrow">Free · Grok Bot templates</div>
